@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AURIXA Enterprises provides CCTV installation, IP and Wi-Fi camera installation, video door phones, networking and AMC services in Pune and surrounding areas.">
+<meta name="theme-color" content="#0b1424">
+<title>AURIXA Enterprises | Security & Surveillance Solutions</title>
+<style>
+:root{--navy:#0b1424;--navy2:#111f35;--gold:#d8b45e;--gold2:#f0d58f;--ink:#172033;--muted:#667085;--paper:#f6f7fa;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;color:var(--ink);background:var(--white);line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{background:rgba(11,20,36,.97);color:white;position:sticky;top:0;z-index:10;border-bottom:1px solid rgba(216,180,94,.3)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-weight:900;letter-spacing:3px;font-size:25px;color:var(--gold)}.brand small{display:block;font-size:10px;letter-spacing:5px;color:#fff;text-align:center;margin-top:-5px}
+nav{display:flex;gap:25px;font-size:13px;color:#e8ebf0}nav a:hover{color:var(--gold)}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 20px;border-radius:5px;background:var(--gold);color:#101827;font-weight:800;font-size:13px;letter-spacing:.3px;border:1px solid var(--gold);transition:.2s}.btn:hover{background:var(--gold2);transform:translateY(-1px)}.btn.outline{background:transparent;color:var(--gold)}
+.hero{background:radial-gradient(circle at 80% 20%,#20395b 0,#111f35 34%,#0b1424 72%);color:white;padding:94px 0 88px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:420px;height:420px;border:1px solid rgba(216,180,94,.25);border-radius:50%;right:-90px;top:-120px;box-shadow:0 0 0 35px rgba(216,180,94,.035),0 0 0 75px rgba(216,180,94,.025)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:55px;position:relative;z-index:1}
+.eyebrow{color:var(--gold);font-weight:800;letter-spacing:3px;text-transform:uppercase;font-size:11px}
+h1{font-size:clamp(38px,5.2vw,64px);line-height:1.08;letter-spacing:-1.5px;margin:16px 0}.hero p{color:#cbd3df;max-width:590px;font-size:17px}.gold{color:var(--gold)}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.visual{min-height:330px;border:1px solid rgba(216,180,94,.5);border-radius:18px;background:linear-gradient(145deg,rgba(255,255,255,.08),rgba(255,255,255,.015));display:grid;place-items:center;position:relative;overflow:hidden}
+.camera{width:220px;height:135px;border-radius:24px 55px 55px 24px;background:linear-gradient(145deg,#f7f8fa,#9ca8b6 48%,#e8ebef);transform:rotate(-12deg);box-shadow:0 25px 45px #0008;position:relative}
+.camera:before{content:"";position:absolute;width:90px;height:90px;border-radius:50%;background:radial-gradient(circle at 40% 35%,#6c879f 0 8%,#0b1424 18%,#263c52 38%,#05080e 58%,#718092 62%,#182333 70%);left:18px;top:22px;border:7px solid #dce1e7}
+.camera:after{content:"";position:absolute;right:-30px;top:40px;width:60px;height:55px;background:#aab4c0;clip-path:polygon(0 0,100% 20%,100% 80%,0 100%)}
+.visual-label{position:absolute;bottom:24px;color:#fff;letter-spacing:2px;font-size:11px;text-transform:uppercase}
+.trust{background:#fff;border-bottom:1px solid #e8ebf0}.trust-row{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;padding:24px 0;text-align:center}.trust strong{display:block;color:var(--navy);font-size:14px}.trust span{font-size:12px;color:var(--muted)}
+section{padding:78px 0}.section-head{text-align:center;max-width:680px;margin:0 auto 38px}.section-head h2{font-size:clamp(28px,3vw,40px);line-height:1.15;margin:10px 0;color:var(--navy)}.section-head p{color:var(--muted);margin:0}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{padding:25px 21px;border:1px solid #e5e8ee;border-radius:12px;background:#fff;box-shadow:0 10px 30px rgba(16,24,40,.045);transition:.2s}.card:hover{transform:translateY(-5px);border-color:var(--gold)}.icon{width:48px;height:48px;border-radius:12px;background:#fbf5e7;color:#9c772c;display:grid;place-items:center;font-size:23px;margin-bottom:18px}.card h3{font-size:17px;margin:0 0 8px;color:var(--navy)}.card p{font-size:13px;color:var(--muted);margin:0}
+.about{background:var(--paper)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.about-panel{background:var(--navy);color:white;border-radius:16px;padding:38px;position:relative;overflow:hidden}.about-panel:after{content:"A";position:absolute;right:15px;bottom:-100px;font-size:300px;font-weight:900;color:rgba(216,180,94,.07)}.about-panel h3{font-size:26px;line-height:1.2;margin:10px 0 14px}.about-panel p{color:#cbd3df;font-size:14px;position:relative;z-index:1}.about-copy h2{font-size:36px;line-height:1.15;color:var(--navy);margin:10px 0 15px}.about-copy p{color:var(--muted)}.checklist{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}.check{font-size:13px;font-weight:700}.check:before{content:"✓";color:#a57d2d;font-weight:900;margin-right:8px}
+.sectors{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.sector{background:var(--navy2);color:white;border-radius:10px;padding:22px 12px;text-align:center;font-size:13px;font-weight:700;border-bottom:3px solid var(--gold)}
+.cta{background:linear-gradient(110deg,#0b1424,#172c49);color:white;padding:58px 0}.cta-row{display:flex;justify-content:space-between;align-items:center;gap:25px}.cta h2{font-size:32px;line-height:1.2;margin:0 0 8px}.cta p{color:#cbd3df;margin:0}
+.contact{background:var(--paper)}.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:35px}.contact-info{background:var(--navy);color:white;border-radius:14px;padding:30px}.contact-info h3{font-size:24px;margin:0 0 20px}.contact-line{padding:13px 0;border-bottom:1px solid #ffffff22;font-size:14px}.contact-line span{display:block;color:var(--gold);font-size:10px;letter-spacing:1.5px;text-transform:uppercase}.contact-form{background:white;padding:30px;border-radius:14px;border:1px solid #e5e8ee}.contact-form h3{margin:0 0 18px;color:var(--navy)}input,textarea{width:100%;padding:13px 14px;margin-bottom:12px;border:1px solid #d8dde6;border-radius:6px;font:inherit;font-size:13px}textarea{min-height:100px;resize:vertical}.form-note{font-size:11px;color:var(--muted)}
+footer{background:#070d17;color:#aeb8c7;padding:26px 0;font-size:12px}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-brand{color:var(--gold);font-weight:900;letter-spacing:2px}
+
+/* Interactive product catalogue */
+.service-card{cursor:pointer;text-align:left;font:inherit;width:100%;color:inherit}
+.service-card:focus-visible,.catalog-tab:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.service-card .open-hint{display:block;margin-top:15px;color:#9c772c;font-size:11px;font-weight:800;letter-spacing:.6px}
+.catalog{background:#f7f8fb}
+.catalog-tabs{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:0 auto 28px}
+.catalog-tab{border:1px solid #d9dee8;background:#fff;color:var(--navy);padding:12px 18px;border-radius:7px;font:700 13px Inter,Arial,sans-serif;cursor:pointer}
+.catalog-tab[aria-selected="true"]{background:var(--navy);border-color:var(--gold);color:var(--gold)}
+.catalog-panel{background:#fff;border:1px solid #e5e8ee;border-radius:14px;padding:28px;box-shadow:0 12px 34px rgba(16,24,40,.05)}
+.catalog-panel h3{color:var(--navy);font-size:25px;margin:0 0 8px}.catalog-intro{color:var(--muted);margin:0 0 22px;font-size:14px}
+.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.product{border:1px solid #e5e8ee;border-radius:11px;padding:18px;display:flex;flex-direction:column;min-height:270px;background:linear-gradient(180deg,#fff,#fcfcfd)}
+.product-visual{height:115px;border-radius:8px;background:linear-gradient(145deg,#f4f0e6,#fff);display:grid;place-items:center;color:#9c772c;font-size:48px;margin-bottom:14px}
+.product h4{margin:0 0 5px;color:var(--navy);font-size:16px}.product .model{font-size:12px;color:#9c772c;font-weight:800;letter-spacing:.3px}.product p{font-size:12px;color:var(--muted);margin:9px 0 15px;flex:1}
+.product-links{display:flex;gap:8px;flex-wrap:wrap}.product-links a{font-size:11px;font-weight:800;color:#815f1d;border:1px solid #e7d9b8;padding:8px 10px;border-radius:5px}.product-links a:hover{background:#fbf5e7}
+.catalog-note{font-size:11px;color:#7a8494;margin:18px 0 0;padding-top:14px;border-top:1px solid #edf0f4}
+@media(max-width:850px){.product-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.catalog-panel{padding:18px}.product-grid{grid-template-columns:1fr}.catalog-tab{flex:1 1 45%;padding:10px 8px;font-size:11px}}
+
+@media(max-width:850px){nav{gap:12px;font-size:11px}.cards{grid-template-columns:repeat(2,1fr)}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.visual{min-height:260px}.sectors{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.nav{height:auto;padding:15px 0;align-items:flex-start}.brand{font-size:21px}nav{display:none}.hero{padding:65px 0}.trust-row{grid-template-columns:1fr;gap:18px}.cards{grid-template-columns:1fr 1fr;gap:10px}.card{padding:18px 14px}.card h3{font-size:14px}.card p{font-size:12px}.cta-row,.footer-row{flex-direction:column;align-items:flex-start}.checklist{grid-template-columns:1fr}.about-panel{padding:28px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#home">AURIXA<small>ENTERPRISES</small></a>
+  <nav><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#sectors">Industries</a><a href="#contact">Contact</a></nav>
+  <a class="btn" href="#contact">GET A QUOTE</a>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+  <div><div class="eyebrow">Security &amp; Surveillance Solutions</div>
+    <h1>Secure Today.<br><span class="gold">Safer Tomorrow.</span></h1>
+    <p>Reliable CCTV, IP camera, video door phone and networking solutions for homes, businesses and industrial sites.</p>
+    <div class="hero-actions"><a class="btn" href="#contact">REQUEST A QUOTE</a><a class="btn outline" href="#services">EXPLORE SERVICES</a></div>
+  </div>
+  <div class="visual"><div class="camera"></div><div class="visual-label">Smart surveillance • Reliable protection</div></div>
+</div></section>
+<div class="trust"><div class="wrap trust-row">
+  <div><strong>Professional Installation</strong><span>Planned for your site</span></div>
+  <div><strong>Reliable Support</strong><span>Service you can count on</span></div>
+  <div><strong>Security-Focused Solutions</strong><span>For every kind of property</span></div>
+</div></div>
+<section id="services"><div class="wrap"><div class="section-head"><div class="eyebrow">What We Do</div><h2>Our Security Services</h2><p>Practical, dependable solutions designed around your property's security and connectivity needs.</p></div>
+<div class="cards">
+  <button class="card service-card" type="button" data-service="cctv"><div class="icon">◉</div><h3>CCTV Camera Installation</h3><p>Camera installation and surveillance setup for homes, shops, offices and larger sites.</p><span class="open-hint">VIEW BRANDS &amp; MODELS →</span></button>
+  <button class="card service-card" type="button" data-service="ipwifi"><div class="icon">⌁</div><h3>IP &amp; Wi-Fi Cameras</h3><p>Network-based and wireless camera solutions with remote viewing configuration.</p><span class="open-hint">VIEW BRANDS &amp; MODELS →</span></button>
+  <button class="card service-card" type="button" data-service="doorphone"><div class="icon">▣</div><h3>Video Door Phone</h3><p>Entry-point monitoring and visitor communication solutions for homes and workplaces.</p><span class="open-hint">VIEW BRANDS &amp; MODELS →</span></button>
+  <button class="card service-card" type="button" data-service="network"><div class="icon">⌘</div><h3>Networking &amp; AMC</h3><p>Networking, cabling, system upkeep and annual maintenance support.</p><span class="open-hint">VIEW BRANDS &amp; MODELS →</span></button>
+</div></div></section>
+<section class="catalog" id="catalog"><div class="wrap"><div class="section-head"><div class="eyebrow">Product Range</div><h2>Brands, Models &amp; Datasheets</h2><p>Choose a service to explore example equipment, model details and manufacturer documents.</p></div>
+<div class="catalog-tabs" role="tablist" aria-label="Product categories">
+<button class="catalog-tab" type="button" role="tab" id="tab-cctv" aria-controls="panel-cctv" aria-selected="true" data-tab="cctv">CCTV Cameras</button>
+<button class="catalog-tab" type="button" role="tab" id="tab-ipwifi" aria-controls="panel-ipwifi" aria-selected="false" data-tab="ipwifi">IP &amp; Wi-Fi</button>
+<button class="catalog-tab" type="button" role="tab" id="tab-doorphone" aria-controls="panel-doorphone" aria-selected="false" data-tab="doorphone">Video Door Phone</button>
+<button class="catalog-tab" type="button" role="tab" id="tab-network" aria-controls="panel-network" aria-selected="false" data-tab="network">Networking &amp; AMC</button>
+</div>
+<div class="catalog-panel" id="catalog-panel" role="tabpanel" aria-labelledby="tab-cctv">
+<h3 id="catalog-title">CCTV Camera Installation</h3><p class="catalog-intro" id="catalog-intro">Indoor and outdoor surveillance options for homes, shops, offices, warehouses and industrial sites.</p>
+<div class="product-grid" id="product-grid"></div>
+<p class="catalog-note">Note: These are example manufacturer models for reference, not a statement of current stock or an exclusive brand partnership. Availability, exact hardware revision and specifications should be confirmed before quotation. Product pages and datasheets are hosted by the respective manufacturers.</p>
+</div></div></section></div></section>
+<section class="about" id="about"><div class="wrap about-grid">
+  <div class="about-panel"><div class="eyebrow">AURIXA Enterprises</div><h3>Your Security,<br><span class="gold">Our Responsibility.</span></h3><p>We help customers choose and implement security and networking systems suited to their premises. From an individual home to a large facility, our focus is on clear planning, neat installation and dependable support.</p></div>
+  <div class="about-copy"><div class="eyebrow">About Us</div><h2>Protection built around your needs.</h2><p>AURIXA Enterprises is a Pune-based security and surveillance solutions firm serving residential, commercial and industrial customers.</p><div class="checklist"><div class="check">Site-focused planning</div><div class="check">Clean installation</div><div class="check">Practical solutions</div><div class="check">Ongoing maintenance</div></div></div>
+</div></section>
+<section id="sectors"><div class="wrap"><div class="section-head"><div class="eyebrow">Who We Serve</div><h2>Solutions Across Sectors</h2><p>Security and networking support for a wide range of properties and facilities.</p></div>
+<div class="sectors"><div class="sector">Residential</div><div class="sector">Commercial</div><div class="sector">Industries</div><div class="sector">Warehouses</div><div class="sector">Solar Parks</div></div></div></section>
+<div class="cta"><div class="wrap cta-row"><div><h2>Let's secure what matters.</h2><p>Talk to AURIXA Enterprises about your site requirements.</p></div><a class="btn" href="#contact">CONTACT US</a></div></div>
+<section class="contact" id="contact"><div class="wrap"><div class="section-head"><div class="eyebrow">Get In Touch</div><h2>Request a Site Visit or Quote</h2><p>Share your requirements and we’ll be happy to discuss a suitable solution.</p></div>
+<div class="contact-grid"><div class="contact-info"><h3>Contact AURIXA</h3>
+  <div class="contact-line"><span>Phone</span><a href="tel:+919157046143">+91 91570 46143</a></div>
+  <div class="contact-line"><span>Email</span><a href="mailto:aurixa.enterprises@gmail.com">aurixa.enterprises@gmail.com</a></div>
+  <div class="contact-line"><span>Location</span>Pune, Maharashtra, India</div>
+  <div class="contact-line"><span>Founder / Owner</span>Pratik Nanaware</div>
+</div>
+<form class="contact-form" onsubmit="sendEnquiry(event)"><h3>Send an Enquiry</h3>
+  <input id="name" required placeholder="Your name" aria-label="Your name">
+  <input id="phone" required placeholder="Your phone number" aria-label="Your phone number">
+  <input id="site" placeholder="Property type (Home / Office / Industry / Solar Park)" aria-label="Property type">
+  <textarea id="message" required placeholder="Tell us what you need..." aria-label="Your requirements"></textarea>
+  <button class="btn" type="submit">SEND ENQUIRY ON WHATSAPP</button>
+  <p class="form-note">This opens WhatsApp with your enquiry pre-filled. No details are stored on this website.</p>
+</form></div></div></section>
+</main>
+<footer><div class="wrap footer-row"><div><div class="footer-brand">AURIXA ENTERPRISES</div><div>Your Security, Our Responsibility.</div></div><div>© <span id="year"></span> AURIXA Enterprises · Pune, Maharashtra</div></div></footer>
+<script>
+const catalogData={
+ cctv:{title:'CCTV Camera Installation',intro:'Indoor and outdoor surveillance options for homes, shops, offices, warehouses and industrial sites.',items:[
+  ['Hikvision','DS-2CD1023G2-I(UF)','2 MP fixed bullet network camera; human/vehicle detection on supported variant; IP67 outdoor protection.','▣','https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000002/S000000003/S000000004/OFR010251/M000062017/SM000041030/Data_Sheet/DS-2CD1023G2-IUF_Datasheet_V5.7.1_20221212.pdf','https://securitylab.hikvision.com/sg/products/IP-Products/Network-Cameras/Value-Series/ds-2cd1023g2-i-uf-/'],
+  ['Dahua','DH-IPC-HFW1230S1-S4','2 MP IR bullet network camera; H.265; up to 30 m IR; IP67; PoE support.','◉','https://www.dahuasecurity.com/asset/upload/uploads/soft/20201113/DH-IPC-HFW1230S1-S4-datasheet.pdf','https://www.dahuasecurity.com/'],
+  ['TP-Link VIGI','VIGI C340','4 MP outdoor full-colour bullet network camera. Check hardware revision and regional availability.','◉','https://www.tp-link.com/in/support/download/vigi-c340/','https://www.tp-link.com/in/business-networking/vigi-network-camera/vigi-c340/']
+ ]},
+ ipwifi:{title:'IP & Wi-Fi Cameras',intro:'Wired IP and wireless camera choices with remote viewing and network-based monitoring.',items:[
+  ['TP-Link VIGI','VIGI C340-W','4 MP outdoor full-colour Wi-Fi bullet network camera; wireless connectivity.','⌁','https://www.tp-link.com/in/support/download/vigi-c340-w/','https://www.tp-link.com/in/business-networking/vigi-network-camera/vigi-c340-w/'],
+  ['Hikvision','DS-2CD1023G2-I(UF)','2 MP wired IP bullet camera option for network video recording and remote access.','▣','https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000002/S000000003/S000000004/OFR010251/M000062017/SM000041030/Data_Sheet/DS-2CD1023G2-IUF_Datasheet_V5.7.1_20221212.pdf','https://www.hikvision.com/'],
+  ['Dahua','DH-IPC-HFW1230S1-S4','2 MP PoE IP bullet camera with IR night vision and IP67-rated housing.','◉','https://www.dahuasecurity.com/asset/upload/uploads/soft/20201113/DH-IPC-HFW1230S1-S4-datasheet.pdf','https://www.dahuasecurity.com/']
+ ]},
+ doorphone:{title:'Video Door Phone',intro:'Visitor calling, two-way audio/video communication and supported remote door-unlock solutions.',items:[
+  ['Hikvision','DS-KIS603-P','IP video intercom kit for a villa or house; 7-inch indoor monitor and mobile app support (variant dependent).','▣','https://www.hikvisionindia.com/storage/app/uploads/public/611/20a/41e/61120a41e4575530005580.pdf','https://www.hikvision.com/'],
+  ['Dahua','VTO2202F-P-S3','2 MP villa door station; PoE and 2-wire options; IP65 and IK07 protection.','▣','https://www.dahuasecurity.com/products/video-intercoms/2-wire-ip/villa-door-station/pro-series/vto2202f-p-s3','https://www.dahuasecurity.com/products/video-intercoms/2-wire-ip/villa-door-station/pro-series/vto2202f-p-s3'],
+  ['CP PLUS','CP-UVK-711M / CP-UVK-701MTA','CP PLUS villa door station and video intercom kit model examples. Confirm kit contents with the manufacturer.','▣','https://cpplusworld.com/products/video-door-phones','https://cpplusworld.com/products/video-door-phones']
+ ]},
+ network:{title:'Networking & AMC',intro:'PoE switches, network infrastructure and ongoing preventive maintenance for connected security systems.',items:[
+  ['TP-Link','TL-SG1008MP','8-port Gigabit desktop/rackmount PoE+ switch; up to 153 W PoE budget on listed hardware versions.','⌘','https://www.tp-link.com/in/support/download/tl-sg1008mp/','https://www.tp-link.com/in/business-networking/poe-switch/tl-sg1008mp/'],
+  ['TP-Link','TL-SG1210MP','10-port Gigabit desktop switch with PoE+ ports; check exact version and power budget in its datasheet.','⌘','https://www.tp-link.com/in/support/download/tl-sg1210mp/','https://www.tp-link.com/in/business-networking/poe-switch/tl-sg1210mp/'],
+  ['AMC Service','AURIXA Annual Maintenance','Periodic health checks, camera cleaning, recording/playback checks, cable and connector inspection, and fault support.','⚙','#contact','#contact']
+ ]}
+};
+function renderCatalog(key){const d=catalogData[key];if(!d)return;document.getElementById('catalog-title').textContent=d.title;document.getElementById('catalog-intro').textContent=d.intro;document.getElementById('catalog-panel').setAttribute('aria-labelledby','tab-'+key);document.querySelectorAll('.catalog-tab').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.tab===key)));const grid=document.getElementById('product-grid');grid.innerHTML='';d.items.forEach(item=>{const [brand,model,desc,icon,datasheet,product]=item;const el=document.createElement('article');el.className='product';const visual=document.createElement('div');visual.className='product-visual';visual.textContent=icon;const b=document.createElement('div');b.className='model';b.textContent=brand;const h=document.createElement('h4');h.textContent=model;const p=document.createElement('p');p.textContent=desc;const links=document.createElement('div');links.className='product-links';if(datasheet!=='#contact'){const a=document.createElement('a');a.href=datasheet;a.target='_blank';a.rel='noopener';a.textContent='DATASHEET / DOWNLOAD';links.appendChild(a);}const v=document.createElement('a');v.href=product;v.target=product==='#contact'?'_self':'_blank';v.rel='noopener';v.textContent=product==='#contact'?'ENQUIRE FOR AMC':'PRODUCT DETAILS';links.appendChild(v);el.append(visual,b,h,p,links);grid.appendChild(el);});}
+document.querySelectorAll('.catalog-tab').forEach(b=>b.addEventListener('click',()=>renderCatalog(b.dataset.tab)));
+document.querySelectorAll('.service-card').forEach(b=>b.addEventListener('click',()=>{renderCatalog(b.dataset.service);document.getElementById('catalog').scrollIntoView({behavior:'smooth'});}));
+renderCatalog('cctv');
+document.getElementById('year').textContent=new Date().getFullYear();
+function sendEnquiry(e){
+ e.preventDefault();
+ const n=document.getElementById('name').value.trim(), p=document.getElementById('phone').value.trim(), s=document.getElementById('site').value.trim(), m=document.getElementById('message').value.trim();
+ const body=`Hello AURIXA Enterprises, I would like to enquire about your services.%0AName: ${encodeURIComponent(n)}%0APhone: ${encodeURIComponent(p)}%0AProperty: ${encodeURIComponent(s)}%0ARequirement: ${encodeURIComponent(m)}`;
+ window.open('https://wa.me/919157046143?text='+body,'_blank','noopener');
+}
+</script>
+</body></html>
